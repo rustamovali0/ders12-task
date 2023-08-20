@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blue {
+  height: 40px;
+  background-color: rgb(6, 0, 74);
+}
+nav {
+  height: 80px;
+  background-color: rgb(34, 121, 237);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav h1 {
+  font-size: 40px;
+}
+nav ul {
+  display: flex;
+  font-size: 25px;
+}
+nav li {
+  padding: 20px;
+}
+main {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  padding: 50px;
+  font-size: 40px;
+}
+.design {
+  height: 500px;
+  width: 1200px;
+
+  border-top: 5px solid rgb(54, 118, 187);
+  border-bottom: 5px solid rgb(54, 118, 187);
+  display: flex;
+  align-items: center;
+}
+.design p {
+  width: 700px;
+  padding: 15px;
+  font-size: 23px;
+}
+.design h1 {
+  font-size: 50px;
+  padding: 30px;
+}
+.imgcontainer{
+  margin-left: 30px;
+}
+.img1{
+    height: 250px;
+    width: 120px;
+}
+.img2{
+    height: 150px;
+    width: 90px;
+}
+section{
+    height: 800px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxs{
+  width: 1000px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.box1{
+  width: 320px;
+  height: 500px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline
+  space-around,space-around;
+  border-top: 5px solid blueviolet;
+
+}
+.box1 h1{
+  line-height: 180px;
+  padding: 20px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.514);
+}
+.box2 h1{
+  line-height: 180px;
+  padding: 20px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.514);
+}
+.box3 h1{
+  line-height: 180px;
+  padding: 20px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.514);
+}
+.box1 img{
+  width: 320px;
+  height: 250px;
+border-radius: 10px;
+}
+.box2 img{
+  width: 320px;
+  height: 350px;
+  border-radius: 10px;
+
+}
+.box3 img{
+  width: 320px;
+  height: 300px;
+  border-radius: 10px;
+
+}
+.box2{
+  width: 320px;
+  height: 600px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 5px solid red;
+
+}
+.box3{
+  width: 320px;
+  height: 550px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 5px solid aqua;
+}
+section h1{
+  font-size: 40px;
+  margin-right: 870px;
+}
+/* ---------------------------------------------- */
+.container2{
+  height: 800px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxes{
+  width: 1000px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.box4{
+  width: 320px;
+  height: 500px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 5px solid blueviolet;
+
+}
+.box4 h1{
+  line-height: 100px;
+  padding: 20px;
+  padding-left: 110px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.514);
+}
+.box4 h2{
+  padding-left: 110px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+.box5 h2{
+  padding-left: 110px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+.box6 h2{
+  padding-left: 110px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+.box5 h1{
+  line-height: 100px;
+  padding: 20px;
+  padding-left: 110px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.514);
+}
+.box6 h1{
+  line-height: 100px;
+  padding: 20px;
+  padding-left: 110px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.514);
+}
+.box5{
+  width: 320px;
+  height: 600px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 5px solid red;
+
+}
+.box6{
+  width: 320px;
+  height: 550px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 5px solid aqua;
+}
+.boxes ul{
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: 25px;
+color: rgba(0, 0, 0, 0.527);
+}
